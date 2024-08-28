@@ -1,0 +1,40 @@
+
+
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.time-display {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 16px;
+  padding: 14px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  min-width: 140px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.elapsed-time {
+  margin-top: 20px;
+}
+
+.buttons button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
